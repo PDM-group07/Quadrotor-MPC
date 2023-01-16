@@ -15,6 +15,7 @@ The safe-control-gym and pybullet packages already provide the packages and obje
 # Description of the packages, nodes and launch files
 This project package houses the functions necessairy to generate an environment with the desired object, create a path and trajectory, quadrotor and its dynamics with constraints and finally the controller. The file structure of the packages can be seen below. By running this packages together with the provided simulator, the Quadrotor should be able to drive autonomously through the path, without hitting an object.
 ```
+.
 ├── 3d_quad.yaml
 ├── assets
 │   ├── cf2.dae
@@ -23,35 +24,21 @@ This project package houses the functions necessairy to generate an environment 
 │   ├── gate.urdf
 │   ├── hb.urdf
 │   ├── quad.obj
+│   ├── ring.stl
 │   ├── sphere.urdf
-│   ├── torusL.STL
-│   ├── torus.obj
-│   ├── torus.STL
 │   └── torus.urdf
 ├── base_aviary2.py
 ├── benchmark_env2.py
-├── benchmark_env.py
 ├── create_obstacles.py
-├── linear_mpc.py
-├── mpc.py
 ├── MPC.py
-├── __pycache__
-│   ├── base_aviary2.cpython-38.pyc
-│   ├── benchmark_env2.cpython-38.pyc
-│   ├── create_obstacles.cpython-38.pyc
-│   ├── linear_mpc.cpython-38.pyc
-│   ├── MPC.cpython-38.pyc
-│   ├── Quadrotor.cpython-38.pyc
-│   ├── Quadrotor_utils.cpython-38.pyc
-│   ├── Trajec_gen.cpython-38.pyc
-│   └── Voxel.cpython-38.pyc
 ├── Quad_env.py
 ├── Quadrotor_mpc.py
 ├── Quadrotor.py
 ├── Quadrotor_utils.py
-├── runsim.py
+├── results_dict_con3_more_obs2.pkl
+├── results.py
 ├── Trajec_gen.py
-└── Voxel.py
+└── videomaking.py
 ```
 # 
 # Instruction to build the solution  
