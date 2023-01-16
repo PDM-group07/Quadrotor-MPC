@@ -1,7 +1,7 @@
 # Quadrotor3D
 
 # Description of this README file
-This README file explains the content of the planning and decision making project. First the assignment will be explained together with the goal.  Afterwards the packages required to setup and run the environment will be reviewed. 
+This README file explains the content of the planning and decision making project. First the assignment will be explained together with the goal.  Afterwards the packages required to setup and run the environment will be reviewed. Here is the link to the repository: https://github.com/PDM-group07/Quadrotor-MPC.git.
 # 
 
 # Description of the task
