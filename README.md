@@ -89,6 +89,7 @@ Run the following commands:
     conda activate safe
     pip install --upgrade pip
     pip install -e .
+    pip install imageio_ffmpeg
 
 To prevent errors with running inside the safe environment, execute the following commands:
     
