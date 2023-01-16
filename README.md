@@ -72,12 +72,12 @@ Complete the installation. After installation run this command:
 
 ## 2. Cloning the assignment repo:
 
-First clone the Quadrotor3D repo:
+First clone the Quadrotor-MPC repo:
     
     git@github.com:PDM-group07/Quadrotor-MPC.git
-    cd Quadrotor3D
+    cd Quadrotor-MPC
     
-After cloning the Quadrotor3D repo, clone the safe-control-gym repo inside the Quadrotor3D folder:
+After cloning the Quadrotor-MPC repo, clone the safe-control-gym repo inside the Quadrotor3D folder:
 
     git clone https://github.com/utiasDSL/safe-control-gym.git
     cd safe-control-gym
@@ -113,7 +113,7 @@ In order to run the simulation the following must be changed first:
 First make sure that you are in the right directory and also make sure that the safe environment is activated:
 
 	conda activate safe
-	cd ~/Quadrotor3D/Quadrotor
+	cd ~/Quadrotor-MPC/Quadrotor
 
 After cloning and installing, run the following command to launch the simulator:
 
