@@ -74,7 +74,7 @@ Complete the installation. After installation run this command:
 
 First clone the Quadrotor3D repo:
     
-    git clone git@github.com:Youssefzahran01/Quadrotor3D.git
+    git@github.com:PDM-group07/Quadrotor-MPC.git
     cd Quadrotor3D
     
 After cloning the Quadrotor3D repo, clone the safe-control-gym repo inside the Quadrotor3D folder:
