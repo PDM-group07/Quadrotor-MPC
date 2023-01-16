@@ -265,7 +265,6 @@ class Obstacles:
 
 
     def initiator(self, env):
-        print("hellooo")
         dyn_bodies = self.dynamic_obstacles
         centers = self.dynamic_centers
         x, y, z = env.state[0], env.state[2], env.state[4]
